@@ -341,7 +341,7 @@ def create_dashboard(bot):
 
 def main():
     # Load configuration
-    os.environ["POLYMARKET_API_KEY"] = "374ba92c7cdddfabc9130e2e52070a83611e761da68b10e853a2e7465a9bafec"
+    os.environ["POLYMARKET_API_KEY"] = ""
     host = os.getenv("POLYMARKET_HOST", "https://clob.polymarket.com")
     key = os.getenv("POLYMARKET_API_KEY", "")
     chain_id = int(os.getenv("POLYMARKET_CHAIN_ID", "137"))
